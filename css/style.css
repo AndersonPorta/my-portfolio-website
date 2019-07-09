@@ -1,11 +1,41 @@
 body {
     padding: 0;
     margin: 0;
-    background: gray;
+    background: white;
+    font-family: 'Ubuntu', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    width: 100%;
+    color: black;
+}
+
+ul {
+    list-style: none;
+    margin-top: 0;
+}
+
+hr {
+    margin: 0;
+}
+
+.title {
+    padding: 50px 25px;
+    background-color: #17252a;  
+    color: #fff;
+    letter-spacing: 6px;
+    font-size: 2rem;
+}
+
+/* HEADER */
+
 #header {
-    background: red;
+    background: #076585;
+    background: -webkit-linear-gradient(to right, #3aafa9, #fff);
+    background: linear-gradient(to right, #3aafa9, #fff);
+    color: black;
+    font-size: 1.5rem;
     height: 100%;
     width: 20%;
     position: fixed;
@@ -15,10 +45,147 @@ body {
     overflow-x: hidden;
 }
 
-#main {
-    margin-left: 20%;
-    padding: 10px;
-    background: blue;
+.intro-container {
+    text-align: center;
 }
 
+.intro-container img {
+    margin-top: 40px;
+    width: 50%;
+}
 
+.intro-text {
+    position: absolute;
+    top: 8%;
+    left: 25%;
+}
+
+.name-intro {
+    background: #17252a;;
+    color: white;
+}
+
+/* NAVIGATION */
+
+#nav a {
+    color: #17252a;
+    font-size: 1rem;
+}
+
+#nav ul {
+    padding: 0;
+}
+
+#nav li {
+    padding: 10px 40px;
+    display: block;
+}
+
+#nav li:hover {
+    background: #def2f1;
+}
+
+.icon {
+    /* background: black; */
+    color: #17252a;
+    margin-right: 10px;
+    width: 40px;
+}
+
+/* MAIN */
+
+#main {
+    margin-left: 20%;
+}
+
+/* ABOUT */
+#about {
+    height: 100vh;
+}
+
+.background-image {
+    position: absolute;
+    background: url("../images/apple-clean-containers-205316.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 80%;
+    z-index: -1;
+}
+
+/* .intro-text {
+    z-index: 1;
+}
+
+.intro-text h1 {
+    margin: 0;
+    padding: 0;
+} */
+
+/* PROJECTS */
+.all-cards {
+    margin: 5% 8.5%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.1s;
+    margin-bottom: 5%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card img {
+    width: 100%;
+    /* height: 70%; */
+}
+
+.text-card {
+    padding: 15px 25px;
+}
+
+/* SKILLS */
+.skill {
+    width: 100%;
+    margin: 5%;
+}
+
+.skill img {
+    width: 20%;
+    display: inline-block;
+    padding: 25px;
+}
+
+/* EDUCATION */
+.education-info {
+    margin: 8% 8.5%;
+    display: inline-block;
+}
+
+/* CONTACT */
+.contact-list {
+    margin: 5% 0;
+}
+
+.contact-list li {
+    margin-left: 5%;
+    padding: 15px 0;
+}
+
+.contact-icon {
+    margin-right: 15px;
+}
+
+.fa-3x {
+    vertical-align: middle;
+}
+
+/* RESUME */
+
+/* FOOTER */
