@@ -45,13 +45,16 @@ hr {
     overflow-x: hidden;
 }
 
+/* INTRO */
 .intro-container {
     text-align: center;
 }
 
 .intro-container img {
     margin-top: 40px;
-    width: 50%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 
 .intro-text {
